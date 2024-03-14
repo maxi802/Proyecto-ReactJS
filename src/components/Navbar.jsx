@@ -1,17 +1,26 @@
- import React from 'react'
- 
+import React from 'react'
+import CartWidget from './cartWidget/CartWidget'
+import { Link } from 'react-router-dom'
+
+
  const navbar = () => {
    return (
      <nav className='navbar'>
-        <a href="#" className='logo'><h1>Crea tu Evento</h1></a>
+        <Link to="/"><img src="./imagenes/logo.jpg" alt="" className='logo'/></Link>
         <ul className='menu'>
-            <li><a href="#" className='menu-link'>Inicio</a></li>
-            <li><a href="#" className='menu-link'></a>Nosotros</li>
-            <li><a href="#" className='menu-link'></a>Productos</li>
-            <li><a href="#" className='menu-link'></a>Contacto</li>
+            <li><Link to="/" className='menu-link'>Inicio</Link></li>
+            <li><Link to="#" className='menu-link'></Link>Nosotros</li>
+            <li><Link to="#" className='menu-link'></Link>Servicios</li>
+            <li><Link to="#" className='menu-link'></Link>Espacio Y Ubicacion</li>
+            <li><Link to="#" className='menu-link'></Link>Catering y Alimentacion</li>
+            <li><Link to="#" className='menu-link'></Link>Entretenimiento y Animación</li>
+            <li><Link to="#" className='menu-link'></Link>Decoración y Ambientación</li>
+            <li><Link to="#" className='menu-link'></Link>Servicios Adicionales</li>
+            <li><Link to="#" className='menu-link'></Link>Contacto</li>
+            <li><CartWidget/></li>
         </ul>
      </nav>
    )
  }
  
- export default navbar
+ export default navbar 
