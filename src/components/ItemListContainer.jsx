@@ -7,7 +7,7 @@ const ItemListContainer = () => {
 
     const[productos,setProductos]=useState([]);
     const categoria =useParams().categoria;
-    const [titulo,setTitulo]=useState("Productos");
+    const [titulo,setTitulo]=useState("Servicios");
 
     useEffect(() => {
       pedirDatos()
@@ -17,6 +17,7 @@ const ItemListContainer = () => {
             setTitulo(categoria);
           } else{
             setProductos(res);
+            setTitulo("Servicios");
           }
             
         })

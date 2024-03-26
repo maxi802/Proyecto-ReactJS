@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "titulo": "Menus Personalizados",
+        "titulo": "Menus Hoteleros",
         "descripcion": "",
         "categoria": "catering y alimentacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
@@ -48,7 +48,7 @@
         "id": 6,
         "titulo": "Servicio Cocina",
         "descripcion": "",
-        "categoria": "catering alimentacion",
+        "categoria": "catering y alimentacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
         "stock": 10
@@ -57,7 +57,7 @@
         "id": 7,
         "titulo": "Servicio Bartender",
         "descripcion": "",
-        "categoria": "catering alimentacion",
+        "categoria": "catering y alimentacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
         "stock": 10
@@ -66,7 +66,7 @@
         "id": 8,
         "titulo": "Barra Libre",
         "descripcion": "",
-        "categoria": "catering alimentacion",
+        "categoria": "catering y alimentacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
         "stock": 10

@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom'
             <li><Link to="/productos/catering y alimentacion" className='menu-link'>Catering y Alimentacion</Link></li>
             <li><Link to="/productos/entretenimiento y animacion" className='menu-link'>Entretenimiento y Animación</Link></li>
             <li><Link to="/productos/decoracion y ambientacion" className='menu-link'>Decoración y Ambientación</Link></li>
-            <li><Link to="/productos/decoracion y ambientacion" className='menu-link'>Servicios Adicionales</Link></li>
+            <li><Link to="/productos/servicios adicionales" className='menu-link'>Servicios Adicionales</Link></li>
             <li><Link to="/contacto" className='menu-link'>Contacto</Link></li>
             <li><CartWidget/></li>
         </ul>
