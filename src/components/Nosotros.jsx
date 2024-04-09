@@ -5,7 +5,7 @@ const Nosotros = () => {
   useEffect(() => {
 
     const clickear = () => {
-      console.log("Click");
+      console.log("Mas Informacion");
     }
 
     window.addEventListener("click", clickear)

@@ -9,7 +9,7 @@ a{
    color: white;
 }
 .container{
-    max-width: 1140px;
+    max-width: 1400px;
     padding-inline: 1.5rem;
     margin: 0 auto;
 }
@@ -61,8 +61,12 @@ text-decoration: underline;
 .producto {
     display: flex;
     flex-direction: column;
-    border-radius: 1rem;
     overflow: hidden;
+    background-color: white;
+    border-width: 2px; /* ancho del borde */
+    border-style: solid; /* estilo del borde */
+    border-color: red; /* color de los bordes (en el orden: arriba, derecha, abajo, izquierda) */
+    border-radius: 3rem;
 }
 
 .producto > div {
@@ -175,4 +179,7 @@ text-decoration: underline;
     outline: 0;
     border: 2px solid var(--clr-main);
     outline: 2px solid var(--clr-main);
+}  
+.check{
+    color: black;
 }

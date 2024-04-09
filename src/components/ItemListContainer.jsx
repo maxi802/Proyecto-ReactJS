@@ -7,7 +7,7 @@ import { db } from '../firebase/config';
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
   const categoria = useParams().categoria;
-  const [titulo, setTitulo] = useState("Servicios");
+  const [titulo] = useState("Servicios");
 
   useEffect(() => {
       const productosRef = collection(db, "servicios");
@@ -46,7 +46,7 @@ const ItemListContainer = () => {
                   console.error("Error fetching documents: ", error);
               });
       }
-  }, []);
+  }, [categoria]);
 
   return (
       <ItemList productos={productos} titulo={titulo}/>
