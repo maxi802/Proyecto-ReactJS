@@ -1,9 +1,9 @@
 import React from 'react'
 import { useEffect,useState } from 'react';
-import { pedirItemPorId } from '../../helpers/pedirDatos';
 import { ItemDetail } from '../ItemDetail';
 import { useParams } from 'react-router-dom';
-
+import {doc,getDoc} from "firebase/firestore"
+import { db } from '../../firebase/config';
 
 export const ItemDetailContainer = () => {
   
@@ -13,9 +13,12 @@ export const ItemDetailContainer = () => {
  console.log(id);
 
   useEffect(() => {
-    pedirItemPorId(Number(id))
-      .then((res) => {
-        setItem(res);
+    const docRef= doc(db,"servicios",id);
+    getDoc(docRef)
+      .then((resp)=>{
+        setItem(
+          {...resp.data(),id:resp.id}
+        )
       })
   }, [id])
   return (

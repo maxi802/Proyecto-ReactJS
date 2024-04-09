@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Alquiler de Salones de Fiesta",
-        "descripcion": "",
+        "descripcion": "Ofrecen espacios cerrados y equipados para eventos.",
         "categoria": "espacio y ubicacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "titulo": "Espacios al aire libre para eventos",
-        "descripcion": "",
+        "descripcion": "Lugares al aire libre, como jardines o terrazas, para celebrar eventos.",
         "categoria": "espacio y ubicacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "titulo": "Locales exclusivos para eventos privados",
-        "descripcion": "",
+        "descripcion": "Lugares exclusivos y privados diseñados para eventos especiales.",
         "categoria": "espacio y ubicacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "titulo": "Menus Personalizados",
-        "descripcion": "",
+        "descripcion": "Creación de menús adaptados a las necesidades y preferencias del cliente.",
         "categoria": "catering y alimentacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "titulo": "Menus Hoteleros",
-        "descripcion": "",
+        "descripcion": "Opciones de comida ofrecidas por hoteles, incluyendo desayuno, almuerzo, cena y servicio a la habitación, adaptadas para diversas dietas.",
         "categoria": "catering y alimentacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "titulo": "Servicio Cocina",
-        "descripcion": "",
+        "descripcion": "Preparación y presentación de alimentos en un establecimiento, asegurando calidad y cumplimiento de estándares sanitarios.",
         "categoria": "catering y alimentacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "titulo": "Servicio Bartender",
-        "descripcion": "",
+        "descripcion": "Servicios de bebidas alcohólicas y no alcohólicas, con personal especializado.",
         "categoria": "catering y alimentacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "titulo": "Barra Libre",
-        "descripcion": "",
+        "descripcion": "Servicios de bebidas alcohólicas y no alcohólicas, con personal especializado dedicado a servicio de barra libre",
         "categoria": "catering y alimentacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -73,8 +73,8 @@
     },
     {
         "id": 9,
-        "titulo": "Servicio DJ",
-        "descripcion": "",
+        "titulo": "Servicio DJ o Banda en Vivo",
+        "descripcion": "Proporcionan música en vivo o DJ para animar el evento.",
         "categoria": "entretenimiento y animacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -83,7 +83,7 @@
     {
         "id": 10,
         "titulo": "Servicio de Karaoke",
-        "descripcion": "",
+        "descripcion": "Cantar con música grabada, usualmente en un lugar público como un bar o sala de fiestas.",
         "categoria": "entretenimiento y animacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -92,7 +92,7 @@
     {
         "id": 11,
         "titulo": "Espetaculos de Magia o Comedia",
-        "descripcion": "",
+        "descripcion": "Shows de magia o comedia para entretener a los asistentes.",
         "categoria": "entretenimiento y animacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -101,7 +101,7 @@
     {
         "id": 12,
         "titulo": "Alquiler de Luces y Sonido",
-        "descripcion": "",
+        "descripcion": "Proporcionan equipos profesionales de sonido y luces para eventos.",
         "categoria": "entretenimiento y animacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -110,7 +110,7 @@
     {
         "id": 13,
         "titulo": "Diseño floral y Decoracion",
-        "descripcion": "",
+        "descripcion": "Creación de arreglos florales y decorativos para embellecer el evento.",
         "categoria": "decoracion y ambientacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -119,7 +119,7 @@
     {
         "id": 14,
         "titulo": "Alquiler mobiliriario y manteleria",
-        "descripcion": "",
+        "descripcion": "Ofrecen una variedad de mobiliario y mantelería para eventos.",
         "categoria": "decoracion y ambientacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -128,7 +128,7 @@
     {
         "id": 15,
         "titulo": "Iluminacion Especial y efectos visuales",
-        "descripcion": "",
+        "descripcion": "Crean ambientes especiales con iluminación y efectos visuales.",
         "categoria": "decoracion y ambientacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -137,7 +137,7 @@
     {
         "id": 16,
         "titulo": "Tematización del evento según preferencias del cliente",
-        "descripcion": "",
+        "descripcion": "Diseño del evento según un tema específico elegido por el cliente.",
         "categoria": "decoracion y ambientacion",
         "imagen": "https://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -146,7 +146,7 @@
     {
         "id": 17,
         "titulo": "Servicio de Limpieza",
-        "descripcion": "",
+        "descripcion": "Mantenimiento de la higiene y orden en espacios, como hogares u oficinas, a través de actividades como barrer, trapear y limpiar superficies.",
         "categoria": "servicios adicionales",
         "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -155,7 +155,7 @@
     {
         "id": 18,
         "titulo": "Fotografía y videografía profesional",
-        "descripcion": "",
+        "descripcion": "Capturan los momentos del evento a través de fotografías y videos profesionales.",
         "categoria": "servicios adicionales",
         "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -164,7 +164,7 @@
     {
         "id": 19,
         "titulo": "Hospedaje",
-        "descripcion": "",
+        "descripcion": " Ofrecimiento de alojamiento temporal en habitaciones de hotel a cambio de un pago, proporcionando comodidades y servicios para satisfacer las necesidades de los huéspedes.",
         "categoria": "servicios adicionales",
         "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -173,7 +173,7 @@
     {
         "id": 20,
         "titulo": "Servicios de transporte para invitados",
-        "descripcion": "",
+        "descripcion": "Proporcionan transporte para los invitados antes y después del evento.",
         "categoria": "servicios adicionales",
         "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
@@ -182,7 +182,7 @@
     {
         "id": 21,
         "titulo": "Servicio Mozos",
-        "descripcion": "",
+        "descripcion": "Personal que sirve comida y bebida en eventos o establecimientos.",
         "categoria": "servicios adicionales",
         "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
         "precio": 1500,
